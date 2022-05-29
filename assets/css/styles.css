@@ -4,14 +4,12 @@ body {
     display:flex;
     align-items:center;
     justify-content: center;
-    flex-direction: column;
-    background-color: rgba(18, 18, 20, 0.603);
+    flex-direction: column;   
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px ;
-    
-  
-    
-    
+    background-image:  url(/assets/img/close-da-mao-do-contador-para-lidar-com-o-grafico-financeiro-no-fundo-da-equipe-de-negocios-no-escritorio_160672-21656.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;        
 }
 
 button {
@@ -36,5 +34,18 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 25pt;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 50%;
+    font-weight: bold;
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);   
 }
 
