@@ -11,6 +11,14 @@ body {
     color: white;   
 }
 
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
 button {
     height: 40px;
     width: 40px;
@@ -41,6 +49,7 @@ button {
     bottom: 0;
     font-size: 50%;
     font-weight: bold;
+    text-align: center;
 
 }
 
