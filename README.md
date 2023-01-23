@@ -11,5 +11,5 @@ https://erickplacidesmartins.github.io/Projeto-JavaScript-Contador/
 
 
 <div align="center">
-            <img src="https://user-images.githubusercontent.com/103293578/170867633-6cc29422-992b-47e4-8051-21ae7fae6f4e.png" width="auto">
+            <img src="https://user-images.githubusercontent.com/103293578/214164836-23bef826-0830-485a-9bce-17bd0844d16b.png" width="auto">
 </div>
