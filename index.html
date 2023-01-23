@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="assets/css/styles.css" />
-            <link rel="shortcut icon" href="./assets/img/3159relogio.ico" type="image/x-icon">
-            <title>Contador com JavaScript</title>
-        </head>
-        <body>
-            
-                <h1>Sejam Bem Vindos!! </h1>
-                <p> Este é o meu primeiro projeto com Javascript. </p>
-                <div id="counter">
-                    <button name="subtrair" onclick="decrement()">-</button>
-                    <span id="currentNumber">0</span>
-                    <button name="adicionar" onclick="increment()">+</button>
-                </div>
-                <script src="assets/js/script.js"></script>
+<html lang="pt-br">
 
-                <footer id="footer">
-                    <div>
-                    <p> © 2022 Curso Introdução JavaScript / Realizado por Erick Placides com as orientações de <a href=" https://www.stebs.dev/pt-br" target="_blank">Stephany Nusch.</a>
-                    </div>
-                </footer>
-            
-        </body>
-        
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/3159relogio.ico" type="image/x-icon">
+    <title>Cronômetro</title>
+</head>
+
+<body>
+    <h1>Timer Placides</h1>
+    <audio id="sound" src="assets/mp3/alarm.mp3" style="display: none;"></audio>
+    <header id="display">
+        <span>Horas</span>
+        <input type="number" max="24" min="0" value="0"  id="hour">
+        <span>Minutos</span>
+        <input type="number" max="60" min="0" value="0" id="minute">
+        <span>Segundos</span>
+        <input type="number" max="60" min="0" value="0" id="secund">
+    </header><br>
+    <nav>
+        <button id="start">Iniciar</button><br>
+        <button id="pause">Pause</button><br>
+        <button id="stop">Cancelar</button>
+    </nav>
+    <footer>
+        <div>
+            <p> © 2022 <a href="https://github.com/ErickPlacidesMartins" target="_blank">Erick Placides Martins.</a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
